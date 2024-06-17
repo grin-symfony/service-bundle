@@ -1,11 +1,11 @@
 {
-    "name": "grin-symfony/service-bundle",
+    "name": "green-symfony/service-bundle",
     "autoload": {
         "psr-4": {
             "GS\\Service\\": "src/"
         }
     },
-	"version":		"1.0.0",
+	"version":		"2.0.0",
     "type":			"symfony-bundle",
     "description":	"Commonly used symfony services for extending into Symfony Application.",
     "authors": [
@@ -14,7 +14,7 @@
 			"email":		"son5-29@mail.ru"
         }
     ],
-    "keywords": ["grin-symfony", "service-bundle"],
+    "keywords": ["green-symfony", "service-bundle"],
     "license": "MIT",
     "require": {
         "php": ">=7",

@@ -99,6 +99,7 @@ class ServiceContainer
     */
     public static function loadYaml(
         ContainerBuilder $container,
+		string $absPathToRel,
         string|array $relPath,
         ?string $filename = null,
     ): void {
@@ -107,7 +108,8 @@ class ServiceContainer
             foreach ($relPath as [$path, $filename]) {
                 self::loadYaml(
                     $container,
-                    $path,
+                    $absPathToRel,
+					$path,
                     $filename,
                 );
             }
@@ -122,7 +124,7 @@ class ServiceContainer
             $container,
             new FileLocator(
                 [
-                    __DIR__ . '/../../' . $relPath,
+                    u($absPathToRel)->ensureEnd('/') . \ltrim($relPath, '/\\'),
                 ],
             ),
         );
