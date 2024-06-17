@@ -65,8 +65,6 @@ class GSServiceExtension extends ConfigurableExtension implements PrependExtensi
             $container,
             [
                 ['config', 'services.yaml'],
-                ['config/packages', 'translation.yaml'],
-                ['config/packages', 'gs_service.yaml'],
             ],
         );
     }
