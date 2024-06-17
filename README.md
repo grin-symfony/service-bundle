@@ -1,4 +1,4 @@
-green-symfony/service-bundle
+grin-symfony/service-bundle
 ========
 
 # Description
@@ -9,21 +9,21 @@ This bundle provides ready to use services:
 | ------------- |
 | gs_service.faker |
 | gs_service.carbon_factory_immutable |
-| [GS\Service\Service\ArrayService](https://github.com/green-symfony/service-bundle/blob/main/src/Service/ArrayService.php) |
-| [GS\Service\Service\BoolService](https://github.com/green-symfony/service-bundle/blob/main/src/Service/BoolService.php) |
-| [GS\Service\Service\BufferService](https://github.com/green-symfony/service-bundle/blob/main/src/Service/BufferService.php) |
-| [GS\Service\Service\CarbonService](https://github.com/green-symfony/service-bundle/blob/main/src/Service/CarbonService.php) |
-| [GS\Service\Service\ClipService](https://github.com/green-symfony/service-bundle/blob/main/src/Service/ClipService.php) |
-| [GS\Service\Service\ConfigService](https://github.com/green-symfony/service-bundle/blob/main/src/Service/ConfigService.php) |
-| [GS\Service\Service\DumpInfoService](https://github.com/green-symfony/service-bundle/blob/main/src/Service/DumpInfoService.php) |
-| [GS\Service\Service\FilesystemService](https://github.com/green-symfony/service-bundle/blob/main/src/Service/FilesystemService.php) |
-| [GS\Service\Service\HtmlService](https://github.com/green-symfony/service-bundle/blob/main/src/Service/HtmlService.php) |
-| [GS\Service\Service\OSService](https://github.com/green-symfony/service-bundle/blob/main/src/Service/OSService.php) |
-| [GS\Service\Service\ParserService](https://github.com/green-symfony/service-bundle/blob/main/src/Service/ParserService.php) |
-| [GS\Service\Service\RandomPasswordService](https://github.com/green-symfony/service-bundle/blob/main/src/Service/RandomPasswordService.php) |
-| [GS\Service\Service\RegexService](https://github.com/green-symfony/service-bundle/blob/main/src/Service/RegexService.php) |
-| [GS\Service\Service\StringService](https://github.com/green-symfony/service-bundle/blob/main/src/Service/StringService.php) |
-| [GS\Service\Service\DoctrineService](https://github.com/green-symfony/service-bundle/blob/main/src/Service/DoctrineService.php) |
+| [GS\Service\Service\ArrayService](https://github.com/grin-symfony/service-bundle/blob/main/src/Service/ArrayService.php) |
+| [GS\Service\Service\BoolService](https://github.com/grin-symfony/service-bundle/blob/main/src/Service/BoolService.php) |
+| [GS\Service\Service\BufferService](https://github.com/grin-symfony/service-bundle/blob/main/src/Service/BufferService.php) |
+| [GS\Service\Service\CarbonService](https://github.com/grin-symfony/service-bundle/blob/main/src/Service/CarbonService.php) |
+| [GS\Service\Service\ClipService](https://github.com/grin-symfony/service-bundle/blob/main/src/Service/ClipService.php) |
+| [GS\Service\Service\ConfigService](https://github.com/grin-symfony/service-bundle/blob/main/src/Service/ConfigService.php) |
+| [GS\Service\Service\DumpInfoService](https://github.com/grin-symfony/service-bundle/blob/main/src/Service/DumpInfoService.php) |
+| [GS\Service\Service\FilesystemService](https://github.com/grin-symfony/service-bundle/blob/main/src/Service/FilesystemService.php) |
+| [GS\Service\Service\HtmlService](https://github.com/grin-symfony/service-bundle/blob/main/src/Service/HtmlService.php) |
+| [GS\Service\Service\OSService](https://github.com/grin-symfony/service-bundle/blob/main/src/Service/OSService.php) |
+| [GS\Service\Service\ParserService](https://github.com/grin-symfony/service-bundle/blob/main/src/Service/ParserService.php) |
+| [GS\Service\Service\RandomPasswordService](https://github.com/grin-symfony/service-bundle/blob/main/src/Service/RandomPasswordService.php) |
+| [GS\Service\Service\RegexService](https://github.com/grin-symfony/service-bundle/blob/main/src/Service/RegexService.php) |
+| [GS\Service\Service\StringService](https://github.com/grin-symfony/service-bundle/blob/main/src/Service/StringService.php) |
+| [GS\Service\Service\DoctrineService](https://github.com/grin-symfony/service-bundle/blob/main/src/Service/DoctrineService.php) |
 
 # Installation
 
@@ -33,22 +33,22 @@ In your `%kernel.project_dir%/composer.json`
 
 ```json
 "require": {
-	"green-symfony/service-bundle": "VERSION"
+	"grin-symfony/service-bundle": "VERSION"
 },
 "repositories": [
 	{
 		"type": "path",
-		"url": "./bundles/green-symfony/service-bundle"
+		"url": "./bundles/grin-symfony/service-bundle"
 	}
 ]
 ```
 
 ### Step 2: Download the bundle
 
-### [Before git clone](https://github.com/green-symfony/docs/blob/main/docs/bundles_green_symfony%20mkdir.md)
+### [Before git clone](https://github.com/grin-symfony/docs/blob/main/docs/bundles_grin_symfony%20mkdir.md)
 
 ```console
-git clone "https://github.com/green-symfony/service-bundle.git"
+git clone "https://github.com/grin-symfony/service-bundle.git"
 ```
 
 ```console
@@ -56,10 +56,10 @@ cd "../../"
 ```
 
 ```console
-composer require "green-symfony/service-bundle"
+composer require "grin-symfony/service-bundle"
 ```
 
-### [Binds](https://github.com/green-symfony/docs/blob/main/docs/borrow-services.yaml-section.md)
+### [Binds](https://github.com/grin-symfony/docs/blob/main/docs/borrow-services.yaml-section.md)
 
 ### Step 3: Usage
 
@@ -160,7 +160,7 @@ class YourController {
 Open terminal in your project `%kernel.project_dir%` and execute:
 
 ```console
-cp "./bundles/green-symfony/service-bundle/config/packages/gs_service.yaml" "./config/packages/gs_service.yaml"
+cp "./bundles/grin-symfony/service-bundle/config/packages/gs_service.yaml" "./config/packages/gs_service.yaml"
 ```
 
 Here `%kernel.project_dir%/config/packages/gs_service.yaml`, you can override any parameter.
