@@ -67,8 +67,6 @@ class GSServiceExtension extends ConfigurableExtension implements PrependExtensi
 			__DIR__ . '/..',
             [
                 ['config', 'services.yaml'],
-                ['config/packages', 'translation.yaml'],
-                ['config/packages', 'gs_service.yaml'],
             ],
         );
     }
