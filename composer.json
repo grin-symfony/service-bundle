@@ -1,5 +1,5 @@
 {
-    "name": "green-symfony/service-bundle",
+    "name": "grin-symfony/service-bundle",
     "autoload": {
         "psr-4": {
             "GS\\Service\\": "src/"
@@ -14,7 +14,7 @@
 			"email":		"son5-29@mail.ru"
         }
     ],
-    "keywords": ["green-symfony", "service-bundle"],
+    "keywords": ["grin-symfony", "service-bundle"],
     "license": "MIT",
     "require": {
         "php": ">=7",
