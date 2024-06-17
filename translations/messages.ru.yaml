@@ -4,3 +4,8 @@ gs_service:
     
     exception:
         file_does_not_exist: 'Файл "%path%" не существует!'
+        
+    error:
+        doctrine:
+            not_found:
+                entity_state: 'Статус сущности: "%state%" не соответствует статусам Doctrine! (ошибка)'

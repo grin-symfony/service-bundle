@@ -4,3 +4,8 @@ gs_service:
         
     exception:
         file_does_not_exist: 'The file "%path%" does not exist!'
+        
+    error:
+        doctrine:
+            not_found:
+                entity_state: 'State of the entity: "%state%" does not mesure up to the Doctrine state! (error)'

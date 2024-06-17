@@ -23,6 +23,7 @@ This bundle provides ready to use services:
 | [GS\Service\Service\RandomPasswordService](https://github.com/grin-symfony/service-bundle/blob/main/src/Service/RandomPasswordService.php) |
 | [GS\Service\Service\RegexService](https://github.com/grin-symfony/service-bundle/blob/main/src/Service/RegexService.php) |
 | [GS\Service\Service\StringService](https://github.com/grin-symfony/service-bundle/blob/main/src/Service/StringService.php) |
+| [GS\Service\Service\DoctrineService](https://github.com/grin-symfony/service-bundle/blob/main/src/Service/DoctrineService.php) |
 
 # Installation
 
