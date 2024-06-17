@@ -1,0 +1,34 @@
+{
+    "name": "green-symfony/service-bundle",
+    "autoload": {
+        "psr-4": {
+            "GS\\Service\\": "src/"
+        }
+    },
+	"version":		"1.0.0",
+    "type":			"symfony-bundle",
+    "description":	"Commonly used symfony services for extending into Symfony Application.",
+    "authors": [
+        {
+            "name":			"Grigory Koblitsky",
+			"email":		"son5-29@mail.ru"
+        }
+    ],
+    "keywords": ["green-symfony", "service-bundle"],
+    "license": "MIT",
+    "require": {
+        "php": ">=7",
+        "nesbot/carbon": ">=2",
+        "fzaninotto/faker": ">=1",
+        "symfony/property-access": ">=6",
+        "symfony/string": ">=6",
+        "symfony/config": ">=6",
+        "symfony/finder": ">=6",
+        "symfony/options-resolver": ">=6",
+        "symfony/filesystem": ">=6",
+        "symfony/yaml": ">=6",
+        "symfony/http-foundation": ">=6",
+        "symfony/workflow": ">=6",
+        "symfony/translation": ">=6"
+    }
+}

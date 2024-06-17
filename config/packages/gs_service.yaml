@@ -1,0 +1,15 @@
+gs_service:
+    locale:                         '%gs_service.locale%'
+    timezone:                       '%gs_service.timezone%'
+    app_env:                        '%gs_service.app_env%'
+    local_drive_for_test:           '%gs_service.local_drive_for_test%'
+    year_regex:                     '%gs_service.year_regex%'
+    year_regex_full:                '%gs_service.year_regex_full%'
+    ip_v4_regex:                    '%gs_service.ip_v4_regex%'
+    slash_of_ip_regex:              '%gs_service.slash_of_ip_regex%'
+    start_of_win_sys_file_regex:    '%gs_service.start_of_win_sys_file_regex%'
+
+    #load_packs_configs:
+    #    -   pack_name:      'monolog'
+    #        pack_rel_path:  ~
+    #        does_not_exist_mess: 'your_namespace.exception.file_must_exist' # (NOT REQUIRED) Translated message    

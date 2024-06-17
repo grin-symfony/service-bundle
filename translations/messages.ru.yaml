@@ -1,0 +1,6 @@
+gs_service:
+    service:
+        current_ip: 'Текущий ip'
+    
+    exception:
+        file_does_not_exist: 'Файл "%path%" не существует!'
