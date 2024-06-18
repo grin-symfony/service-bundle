@@ -30,6 +30,7 @@
         "symfony/workflow": ">=6",
 		"symfony/translation": ">=6",
         "fzaninotto/faker": "dev-bugfix"
+	},
 	"repositories": [
 		{
 			"type": "vcs",
