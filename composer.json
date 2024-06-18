@@ -10,8 +10,8 @@
     "description":	"Commonly used symfony services for extending into Symfony Application.",
     "authors": [
         {
-            "name":			"Grigory Koblitsky",
-			"email":		"son5-29@mail.ru"
+            "name":			"Grigory Koblitskiy",
+			"email":		"grin180898@mail.ru"
         }
     ],
     "keywords": ["grin-symfony", "service-bundle"],
@@ -30,7 +30,6 @@
         "symfony/workflow": ">=6",
 		"symfony/translation": ">=6",
         "fzaninotto/faker": "dev-bugfix"
-    },
 	"repositories": [
 		{
 			"type": "vcs",
