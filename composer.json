@@ -10,8 +10,8 @@
     "description":	"Commonly used symfony services for extending into Symfony Application.",
     "authors": [
         {
-            "name":			"Grigory Koblitsky",
-			"email":		"son5-29@mail.ru"
+            "name":			"Grigory Koblitskiy",
+			"email":		"grin180898@mail.ru"
         }
     ],
     "keywords": ["grin-symfony", "service-bundle"],
@@ -19,7 +19,7 @@
     "require": {
         "php": ">=7",
         "nesbot/carbon": ">=2",
-        "fzaninotto/faker": ">=1",
+        "fzaninotto/faker": "dev-bugfix",
         "symfony/property-access": ">=6",
         "symfony/string": ">=6",
         "symfony/config": ">=6",
@@ -31,4 +31,10 @@
         "symfony/workflow": ">=6",
         "symfony/translation": ">=6"
     }
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/grin-symfony/Faker.git"
+		}
+	]
 }
