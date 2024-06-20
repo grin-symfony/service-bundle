@@ -30,7 +30,6 @@
         "symfony/http-foundation": ">=6",
         "symfony/workflow": ">=6",
         "symfony/translation": ">=6"
-    },
 	"repositories": [
 		{
 			"type": "vcs",
