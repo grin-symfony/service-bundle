@@ -7,6 +7,7 @@ use function Symfony\Component\String\{
     b
 };
 
+use Symfony\Component\Yaml\Yaml;
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 use Symfony\Component\DependencyInjection\Parameter;
@@ -119,7 +120,7 @@ class ServiceContainer
         if (\is_string($relPath) && $filename === null) {
             throw new \Exception('Incorrect method arguments');
         }
-
+		
         $loader = new YamlFileLoader(
             $container,
             new FileLocator(
